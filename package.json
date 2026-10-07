@@ -1,0 +1,17 @@
+{
+  "name": "zalo-master-ai-agent-commercial",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zalo Master AI Agent Omnichannel (Commercial Grade, 0% Local RAM)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
