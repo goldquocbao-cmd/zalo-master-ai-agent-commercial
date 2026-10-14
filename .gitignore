@@ -5,3 +5,17 @@ node_modules
 dist
 .vercel
 .env*
+
+# BẢO MẬT TUYỆT ĐỐI (DEFCON 1 SECURITY RULES)
+.env.*
+!.env.example
+*.env
+*.key
+*.pem
+*.p8
+*credential*
+*secret*
+__pycache__/
+*.pyc
+*.log
+.DS_Store
